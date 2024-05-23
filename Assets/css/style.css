@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 .btn-custom{
     border-color: #094B72 !important;
+    background-color: #ffffff !important;
+    color: #094B72 !important;
+
 }
 .btn-custom:hover{
     background-color: #094B72 !important;
@@ -8,3 +13,27 @@
 body{
     background-color: #dff3f8;
 }
+.txt-home{
+    font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: 20px;
+      font-style: normal;
+      color: #094B72;
+    }
+    #home-text{
+        position: relative;
+        top: 25vh;
+    }
+    #home-girl{
+        position: relative;
+        left: 11vw;
+        z-index: 1;
+        height: 90vh;
+    }
+    #home-back{
+        position: relative;
+        top: -80vh;
+        left: 0vw;
+        z-index: 0;
+    }
+    
