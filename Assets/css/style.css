@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 .btn-custom{
     border-color: #094B72 !important;
     background-color: #ffffff !important;
@@ -37,3 +37,23 @@ body{
         z-index: 0;
     }
     
+#service-txt{
+    position: relative;
+    top: 20vh;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    color: #000000;
+}
+.btn-custom-static{
+    background-color: #094B72 !important;
+    color: #dcd8d8 !important;
+}
+.card-body-txt{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+    color: #515151;
+}
